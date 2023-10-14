@@ -1,0 +1,10 @@
+certifi==2023.7.22
+charset-normalizer==3.3.0
+defusedxml==0.7.1
+idna==3.4
+mysql-connector-python==8.1.0
+packaging==23.2
+protobuf==4.21.12
+requests==2.31.0
+tableauserverclient==0.28
+urllib3==2.0.6
