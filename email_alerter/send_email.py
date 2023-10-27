@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 
 from .gmail_secret import GMAIL_APP_PW
 from .email_body import get_email_body
-from .constants import EMAIL_FROM
+from .constants import EMAIL_FROM, CC_LIST
 
 
 def send_failure_email(resp):
@@ -15,14 +15,15 @@ def send_failure_email(resp):
 
     # me == my email address
     # you == recipient's email address
-    me = EMAIL_FROM
-    you = resp["owner_email"]
+    from_addr = EMAIL_FROM
+    to_addr = resp["owner_email"]
 
     # Create message container - the correct MIME type is multipart/alternative.
     msg = MIMEMultipart("alternative")
     msg["Subject"] = "Tableau Extract Refresh Failure"
-    msg["From"] = me
-    msg["To"] = you
+    msg["From"] = from_addr
+    msg["To"] = to_addr
+    msg["Cc"] = CC_LIST
 
     # Create the body of the message (a plain-text and an HTML version).
     text = ""
@@ -45,5 +46,5 @@ def send_failure_email(resp):
     mail.starttls()
 
     mail.login(EMAIL_FROM, GMAIL_APP_PW)
-    mail.sendmail(me, you, msg.as_string())
+    mail.sendmail(from_addr, to_addr, msg.as_string())
     mail.quit()
