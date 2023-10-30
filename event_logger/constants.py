@@ -1,10 +1,7 @@
-DB_HOST = "webhooks.caxbwnwjcwdg.us-east-1.rds.amazonaws.com"
-DB_PORT = "3306"
-DB_SCHEMA = "webhooks"
+DB_HOST = "YOUR_DB_HOST"
+DB_PORT = "YOUR_DB_PORT"
+DB_SCHEMA = "YOUR_DB_SCHEMA"
+DB_USER = "YOUR_DB_USER"
+DB_PASSWORD = "YOUR_DB_PASSWORD"
 
-TSC_SERVER_URL = "https://10ax.online.tableau.com/"
-TSC_SITE_NAME = "kjmdev797388"
-
-LAMBDA_URL = "https://iewtxiqqwvjozoczpixza74ami0weobi.lambda-url.us-east-1.on.aws/"
-
-BASE_DS_SEARCH_URL = "https://10ax.online.tableau.com/#/site/kjmdev797388/search/datasources?order_by=relevancy:desc&search="
+LAMBDA_URL = "YOUR_LAMBDA_URL"
