@@ -1,7 +1,7 @@
 import tableauserverclient as TSC
-from .tsc_webhooks import get_server_and_auth
+from tsc_webhooks.tsc_webhooks import get_server_and_auth
 from db import MySQL
-from .constants import BASE_DS_SEARCH_URL
+from tsc_webhooks.tsc_constants import BASE_DS_SEARCH_URL
 
 
 def get_site_name_from_id(

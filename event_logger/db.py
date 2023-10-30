@@ -1,5 +1,4 @@
-from .constants import DB_HOST, DB_SCHEMA
-from .db_secret import DB_USER, DB_PASSWORD
+from .constants import DB_HOST, DB_SCHEMA, DB_USER, DB_PASSWORD
 import mysql.connector
 import mysql.connector.errors as mysql_errors
 

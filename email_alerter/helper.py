@@ -1,6 +1,11 @@
 import tableauserverclient as TSC
-from .constants import TSC_SERVER_URL, TSC_SITE_NAME, BASE_DS_SEARCH_URL
-from .tsc_secret import PAT_NAME, PAT_SECRET
+from tsc_webhooks.tsc_constants import (
+    TSC_SERVER_URL,
+    TSC_SITE_NAME,
+    BASE_DS_SEARCH_URL,
+    PAT_NAME,
+    PAT_SECRET,
+)
 
 
 def get_server_and_auth() -> tuple:
