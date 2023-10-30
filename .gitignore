@@ -160,6 +160,5 @@ cython_debug/
 #.idea/
 
 *scratch.py
-*_secret.py
 sample_resp.py
 .vscode/
