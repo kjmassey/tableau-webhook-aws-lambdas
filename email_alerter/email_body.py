@@ -10,29 +10,29 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="Untitled_files/filelist.xml">
-<link rel=Edit-Time-Data href="Untitled_files/editdata.mso">
+<link rel=File-List href="webhook_email_files/filelist.xml">
+<link rel=Edit-Time-Data href="webhook_email_files/editdata.mso">
 <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Template>NormalEmail.dotm</o:Template>
   <o:Revision>1</o:Revision>
   <o:TotalTime>0</o:TotalTime>
-  <o:Created>2023-10-13T02:03:00Z</o:Created>
+  <o:Created>2023-11-02T01:49:00Z</o:Created>
   <o:Pages>1</o:Pages>
-  <o:Words>67</o:Words>
-  <o:Characters>388</o:Characters>
+  <o:Words>109</o:Words>
+  <o:Characters>626</o:Characters>
   <o:Company>HP</o:Company>
-  <o:Lines>3</o:Lines>
+  <o:Lines>5</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>454</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>734</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=themeData href="Untitled_files/themedata.thmx">
-<link rel=colorSchemeMapping href="Untitled_files/colorschememapping.xml">
+<link rel=themeData href="webhook_email_files/themedata.thmx">
+<link rel=colorSchemeMapping href="webhook_email_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:SpellingState>Clean</w:SpellingState>
@@ -656,6 +656,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
 	mso-font-charset:0;
@@ -685,9 +692,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;
-	mso-ligatures:standardcontextual;}
+	mso-bidi-theme-font:minor-bidi;}
 a:link, span.MsoHyperlink
 	{mso-style-priority:99;
 	color:#0563C1;
@@ -719,9 +724,7 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;
-	mso-ligatures:standardcontextual;}
+	mso-bidi-theme-font:minor-bidi;}
 span.EmailStyle17
 	{mso-style-type:personal-compose;
 	mso-style-noshow:yes;
@@ -738,6 +741,9 @@ span.EmailStyle17
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;
 	color:windowtext;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -749,7 +755,9 @@ span.EmailStyle17
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;}
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
@@ -758,6 +766,78 @@ span.EmailStyle17
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:379599108;
+	mso-list-type:hybrid;
+	mso-list-template-ids:106091422 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -780,9 +860,7 @@ div.WordSection1
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;
-	mso-ligatures:standardcontextual;}
+	mso-bidi-theme-font:minor-bidi;}
 table.MsoTableGrid
 	{mso-style-name:"Table Grid";
 	mso-tstyle-rowband-size:0;
@@ -803,9 +881,7 @@ table.MsoTableGrid
 	mso-hansi-font-family:Calibri;
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-font-kerning:1.0pt;
-	mso-ligatures:standardcontextual;}
+	mso-bidi-theme-font:minor-bidi;}
 </style>
 <![endif]--><!--[if gte mso 9]><xml>
  <o:shapedefaults v:ext="edit" spidmax="1026"/>
@@ -825,52 +901,83 @@ word-wrap:break-word'>
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
  mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:55.75pt'>
-  <td width=967 style='width:725.6pt;border:solid windowtext 1.0pt;mso-border-alt:
-  solid windowtext .5pt;background:#78909C;padding:0in 5.4pt 0in 5.4pt;
-  height:55.75pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.0pt'>
+  <td width=960 style='width:720.3pt;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .5pt;background:#2F5496;mso-background-themecolor:accent1;
+  mso-background-themeshade:191;padding:0in 5.4pt 0in 5.4pt;height:21.0pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:24.0pt;color:black;mso-color-alt:windowtext'>Tableau [[ITEM_TYPE]]
-  Extract Refresh Failure</span><span style='font-size:24.0pt'><o:p></o:p></span></p>
+  style='font-size:24.0pt;color:white;mso-themecolor:background1'>Tableau [[ITEM_TYPE]]
+  Extract Refresh Failure<o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:62.6pt'>
-  <td width=967 valign=top style='width:725.6pt;border:solid windowtext 1.0pt;
+ <tr style='mso-yfti-irow:1;height:18.75pt'>
+  <td width=960 style='width:720.3pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFD966;mso-background-themecolor:accent4;mso-background-themetint:
+  153;padding:0in 5.4pt 0in 5.4pt;height:18.75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='color:black;mso-color-alt:windowtext'>An Alert From Your Tableau Center of Excellence</span><o:p></o:p></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;height:19.75pt'>
+  <td width=960 valign=top style='width:720.3pt;border:solid windowtext 1.0pt;
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
-  padding:0in 5.4pt 0in 5.4pt;height:62.6pt'>
+  padding:0in 5.4pt 0in 5.4pt;height:19.75pt'>
   <p class=MsoNormal><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal><span style='font-size:14.0pt'>Hi there!<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:14.0pt'>Hi -<o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
-  <p class=MsoNormal><span style='font-size:14.0pt'>We though you might want to
-  know that the extract refresh for the Tableau [[ITEM_TYPE]] named <b>[[ITEM_NAME]]</b>
-  has failed! </span><span style='font-size:14.0pt;font-family:"Segoe UI Emoji",sans-serif;
-  mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:
-  Calibri;mso-hansi-theme-font:minor-latin;mso-char-type:symbol-ext;mso-symbol-font-family:
-  "Segoe UI Emoji"'>&#9785;</span><span style='font-size:14.0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:14.0pt'>We're sending you this
+  email to let you know that an extract refresh for the Tableau [[ITEM_TYPE]] named
+  <b>[[ITEM_NAME]]</b> has failed.<o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
-  <p class=MsoNormal><span style='font-size:14.0pt'>Here's a link: <a
-  href="[[ITEM_URL]]">[[ITEM_URL]]</a><o:p></o:p></span></p>
-  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
-  <p class=MsoNormal><span style='font-size:14.0pt'>We recommend you start by
-  double-checking the connection details and credentials. If needed, try
-  refreshing the item again using the "Refresh Extracts Now" option.<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:14.0pt'>We recommend you take the
+  following steps:<o:p></o:p></span></p>
+  <ul style='margin-top:0in' type=disc>
+   <li class=MsoListParagraph style='margin-left:0in;mso-list:l0 level1 lfo1'><span
+       style='font-size:14.0pt'><a href="[[ITEM_URL]]">Click here</a>
+       to access the affected <span class=GramE>item</span><o:p></o:p></span></li>
+   <li class=MsoListParagraph style='margin-left:0in;mso-list:l0 level1 lfo1'><span
+       style='font-size:14.0pt'>Go to the 'Connections' tab and find the
+       problem connection(s)<o:p></o:p></span></li>
+   <li class=MsoListParagraph style='margin-left:0in;mso-list:l0 level1 lfo1'><span
+       style='font-size:14.0pt'>Click on the 'Actions' menu, then 'Edit <span
+       class=GramE>Connection'</span> <o:p></o:p></span></li>
+   <li class=MsoListParagraph style='margin-left:0in;mso-list:l0 level1 lfo1'><span
+       style='font-size:14.0pt'>Ensure that all details are correct, including <span
+       class=GramE>credentials</span><o:p></o:p></span></li>
+   <li class=MsoListParagraph style='margin-left:0in;mso-list:l0 level1 lfo1'><span
+       style='font-size:14.0pt'>Click 'Test Connection'<o:p></o:p></span></li>
+   <li class=MsoListParagraph style='margin-left:0in;mso-list:l0 level1 lfo1'><span
+       style='font-size:14.0pt'>If the test is successful, re-run 'Refresh
+       Extracts <span class=GramE>Now</span>'<o:p></o:p></span></li>
+  </ul>
+  <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal><span style='font-size:14.0pt'>If you're unable to resolve your issue,
+  please respond to this email and we will be happy to help! </span><span
+  style='font-size:14.0pt;font-family:"Segoe UI Emoji",sans-serif;mso-ascii-font-family:
+  Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;
+  mso-hansi-theme-font:minor-latin;mso-char-type:symbol-ext;mso-symbol-font-family:
+  "Segoe UI Emoji"'>&#128522;</span><span style='font-size:14.0pt'><o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal><span style='font-size:14.0pt'>Have a great day,<o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
-  <p class=MsoNormal><span style='font-size:14.0pt'>Your Tableau COE Team<o:p></o:p></span></p>
+  <p class=MsoNormal><span style='font-size:14.0pt'>Your Tableau COE<o:p></o:p></span></p>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
 </table>
 
 </div>
 
-<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 </div>
 
 </body>
 
 </html>
+
 
 """
 
